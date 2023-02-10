@@ -45,7 +45,7 @@ To relax the rate limits enforced by Steam API, fill-in your cookie information 
 4. Copy-paste this cookie value into a new file called `personal_info.json`, which will be read by [`personal_info.py`](personal_info.py).<br/>
     ```json
     {
-      "steamLoginSecure": "64d4857e3757b202f9e82010"
+      "steamLoginSecure": "76561198202777202%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MENGNV8yMjBEODMzOV81OTM0MSIsICJzdWIiOiAiNzY1NjExOTgyMDI3NzcyMDIiLCAiYXVkIjogWyAid2ViIiBdLCAiZXhwIjogMTY3NjA3OTMyMCwgIm5iZiI6IDE2NjczNTE4MDEsICJpYXQiOiAxNjc1OTkxODAxLCAianRpIjogIjBDRUZfMjIwRDgyQzFfNzYwQjMiLCAib2F0IjogMTY3NTk5MTgwMSwgInJ0X2V4cCI6IDE2OTQyNzYxMzksICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICI4MS4xMDQuMTYxLjIyOSIsICJpcF9jb25maXJtZXIiOiAiMTQ4LjI1Mi4xMzMuMjAwIiB9.lwqfsq8pz9nhTsqb6CNmqVNAVLkIn1ScZ9bxuIknqUXp2wredwLwxowKupI3OmI912LkVO2Mw91hkF-66sKAAA"
     }  
     ```
 
@@ -62,11 +62,11 @@ In this case, try to fill-in your cookie information with its new value.
 I have been using the following entries, but you might not need to use all of them. Except for `steamLoginSecure` and `sessionid`, the values of the other entries are set in stone and do not need to be updated afterwards.
 >    ```json
 >    {
->      "browserid": "64d4857e3757b202f9e82010",
->      "steamMachineAuth_PASTE_YOUR_STEAM_ID_HERE": "64d4857e3757b202f9e82010",
->      "steamRememberLogin": "64d4857e3757b202f9e82010",
->      "sessionid": "64d4857e3757b202f9e82010",
->      "steamLoginSecure": "64d4857e3757b202f9e82010"
+>      "browserid": "2761305565566447627",
+>      "steamMachineAuth_PASTE_YOUR_STEAM_ID_HERE": "41581C68F1A1340AA4B6342E3712AD8653DB73CF",
+>      "steamRememberLogin": "1066780%2C440%2C32470%2C394360%2C294100%2C231430",
+>      "sessionid": "cc13e3bdf19470977cce9701",
+>      "steamLoginSecure": "76561198202777202%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MENGNV8yMjBEODMzOV81OTM0MSIsICJzdWIiOiAiNzY1NjExOTgyMDI3NzcyMDIiLCAiYXVkIjogWyAid2ViIiBdLCAiZXhwIjogMTY3NjA3OTMyMCwgIm5iZiI6IDE2NjczNTE4MDEsICJpYXQiOiAxNjc1OTkxODAxLCAianRpIjogIjBDRUZfMjIwRDgyQzFfNzYwQjMiLCAib2F0IjogMTY3NTk5MTgwMSwgInJ0X2V4cCI6IDE2OTQyNzYxMzksICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICI4MS4xMDQuMTYxLjIyOSIsICJpcF9jb25maXJtZXIiOiAiMTQ4LjI1Mi4xMzMuMjAwIiB9.lwqfsq8pz9nhTsqb6CNmqVNAVLkIn1ScZ9bxuIknqUXp2wredwLwxowKupI3OmI912LkVO2Mw91hkF-66sKAAA"
 >    }
 >    ```
 
