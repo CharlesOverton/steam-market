@@ -45,7 +45,7 @@ To relax the rate limits enforced by Steam API, fill-in your cookie information 
 4. Copy-paste this cookie value into a new file called `personal_info.json`, which will be read by [`personal_info.py`](personal_info.py).<br/>
     ```json
     {
-      "steamLoginSecure": "PASTE_YOUR_COOKIE_VALUE_HERE"
+      "steamLoginSecure": "64d4857e3757b202f9e82010"
     }  
     ```
 
@@ -62,11 +62,11 @@ In this case, try to fill-in your cookie information with its new value.
 I have been using the following entries, but you might not need to use all of them. Except for `steamLoginSecure` and `sessionid`, the values of the other entries are set in stone and do not need to be updated afterwards.
 >    ```json
 >    {
->      "browserid": "PASTE_YOUR_COOKIE_VALUE_HERE",
->      "steamMachineAuth_PASTE_YOUR_STEAM_ID_HERE": "PASTE_YOUR_COOKIE_VALUE_HERE",
->      "steamRememberLogin": "PASTE_YOUR_COOKIE_VALUE_HERE",
->      "sessionid": "PASTE_YOUR_COOKIE_VALUE_HERE",
->      "steamLoginSecure": "PASTE_YOUR_COOKIE_VALUE_HERE"
+>      "browserid": "64d4857e3757b202f9e82010",
+>      "steamMachineAuth_PASTE_YOUR_STEAM_ID_HERE": "64d4857e3757b202f9e82010",
+>      "steamRememberLogin": "64d4857e3757b202f9e82010",
+>      "sessionid": "64d4857e3757b202f9e82010",
+>      "steamLoginSecure": "64d4857e3757b202f9e82010"
 >    }
 >    ```
 
@@ -93,7 +93,7 @@ There are two solutions:
 ![inspection](https://github.com/woctezuma/steam-market/wiki/img/y1QSzS7.png)
 
 4. Add line-breaks, so that the file is formatted in the following way:<br/>
-![formatting](https://github.com/woctezuma/steam-market/wiki/img/YAtWJ5O.png)
+![formatting]()
 
    For instance, with [Visual Studio Code](https://code.visualstudio.com/), press `<Ctrl-H>` and run:<br/>
 ![Visual Studio Code: replace](https://github.com/woctezuma/steam-market/wiki/img/aPKEI7W.png)
